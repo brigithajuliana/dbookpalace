@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card-image img {
+  height: 200px !important;
+}
+
+#sdm {
+  width : 80%;
+  height: 100vh;
+  border: 1px hidden;
+  display: none;
+  overflow: hidden;
+  background: #191970;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.xbtn {
+  width: auto;
+  height: auto;
+  border: 1px hidden;
+  display: block;
+  margin: 15px;
+  font-weight: bold;
+  color:white;
+}
+
+.mn {
+  cursor: pointer;
+}
+
+.sn li {
+  width : 100%;
+  height: auto;
+  border: 1px hidden;
+  display: block;
+  overflow: hidden;
+}
+
+.sn li a { 
+  width : auto;
+  height: auto;
+  border: 1px hidden;
+  display: block;
+  overflow: hidden;
+  margin: 15px;
+  color: azure;
+  font-weight: bold;
+}
+
+.sn li :hover {
+  background: #FF0000;
+}
+
+.sn li :hover {
+  color: #fff;
+}
+
+h3,h5, p, a, div{
+  font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.kat {
+  margin: 15px;
+ }
+
+ .btp {
+  margin: 2vh ;
+ }
+
+ body {
+  background-image: url(Image/bg.png);
+ }
+
+.card {
+  white-space: nowrap;
+  
+}
+
+.card-reveal{
+  white-space:normal;
+}
+
+span {
+  width: 100%;
+}
+
+.card-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

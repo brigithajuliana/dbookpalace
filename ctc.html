@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TokoKU</title>
+</head>
+
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="blue darken-4">
+          <div class="nav-wrapper container">
+            <a href="./" class="brand-logo left">TokoKU</a>
+            <a onclick="opm(1)" class="right hide-on-large-only mn">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="prd.html">Our Product</a></li>
+              <li><a href="ctc.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    
+    <div class="sdm hide-on-large-only" id="sdm">
+    
+      <a class="xbtn" onclick="opm(0)">
+      [Close] 
+      </a>
+    
+      <ul class="sn">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="prd.html">Our Product</a></li>
+        <li><a href="ctc.html">Contact Us</a></li>
+    </div> 
+
+
+
+<div id="gallery" class="section">
+    <div class="'section-container">
+        <div class="'section-container center">
+        <h5>Contact Us</h5>
+        </div>
+
+        <div class="row center">
+          <div class="col s6 m6">
+            <a href="https://www.instagram.com/dbookpalace/" target=”_blank”>
+              <img class="responsive-img section" alt="Instagram Page" src = "Image/ig.png"></a>
+            <a href="https://www.instagram.com/dbookpalace/" target=”_blank”>@dbookpalace</a>
+          </div>
+          
+          <div class="col s6 m6">
+            <a href="https://wa.me/6287885425776" target=”_blank”>
+            <img class="responsive-img section" src="Image/wa.png"> </a>
+            <a href="https://wa.me/6287885425776" target=”_blank”>087885425776</a>
+          </div>
+          
+        </div>
+</div>
+</div>
+
+<div class="page-footer blue darken-4">
+  <div class="footer-copyright">
+    <div class="container center">
+    © 2023 TokoKU
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+<script>
+  function opm(num) {
+      if (num==1) {
+          document.getElementById("sdm").style="display:block !important;";
+      } else if (num==0) {
+          document.getElementById("sdm").style="display:none;";
+      }
+  }
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+</script>
+
